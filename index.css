@@ -1,0 +1,268 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:sans-serif;
+
+}
+
+
+.container{
+	text-align:center;
+
+}
+
+#semi{
+	display: flex;
+	flex-wrap: wrap;
+}
+.container #semi{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding:0 20px;
+	background:linear-gradient(to right,blue,green);
+	position:fixed;
+	top:0;
+	right:0;
+	height:14vh;
+	width:100%;
+	z-index:5;
+}
+
+.nav{
+	display: flex;
+	flex-wrap: wrap;
+}
+.nav ul{
+	display:flex;
+	flex-wrap: wrap;
+	justify-self:center;
+	align-items:center;
+	padding:0 20px;
+}
+.nav ul li{
+	list-style:none;
+	padding:0 20px;
+}
+.nav ul li a{
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+
+}
+.nav #div li a:hover{
+	color:#088178;
+}
+/*HOME*/
+.ma-g{
+	margin:0 30px;
+}
+.tin{
+	margin-top:150px;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.tin img{
+  width:300px;
+  height:40vh;
+  border-radius:15px;
+  object-fit:cover;
+}
+.vin{
+	line-height:40px;
+	margin:0 40px;
+}
+.vin h1{
+	color:rgba(128, 128, 128, 0.514);
+}
+.vin p{
+	font-size:17px;
+} 
+.ma-v{
+	margin:100px 0;
+}
+.car{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.pell img{
+	min-width:400px;
+	height:65vh;
+}
+.car img{
+	height:100vh;
+	min-width:1000px;
+	border-radius:15px;
+	object-fit:cover;
+}
+.pi img{
+	height:70vh;
+	min-width:1000px;
+	border-radius:15px;
+	object-fit:cover;	
+}
+/*form*/
+.ma-n{
+	margin:400px 0;
+}
+.form{
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	flex-direction:column;
+	margin:100px auto;
+	line-height:45px;
+	height:95vh;
+	width:500px;
+	background-color:rgba(245, 245, 245, 0.897);
+	border-radius:15px;
+}
+.form input{
+	width:300px;
+	height:6vh;
+	border-radius:6px;
+	border:1px solid rgba(128, 128, 128, 0.514);
+	padding:0 10px;
+}
+.form textarea{
+	height:20vh;
+	width:300px;
+	border-radius:6px;
+	border:1px solid rgba(128, 128, 128, 0.514);
+	padding:5px 10px;
+}
+.form .leave{
+	margin-right:170px;
+	font-size:15px;
+	padding:10px 0;
+}
+.form label{
+	margin-right:200px;
+	font-size:15px;
+}
+.form .vell{
+	margin-right:242px;
+}
+.form .email{
+	margin-right:254px;
+}
+.form .name{
+	margin-right:240px;
+}
+.form button{
+	margin:20px 0;
+	padding:10px 20px;
+	border-radius:8px;
+	background-color:black;
+	cursor:pointer;
+	color:white;
+	font-size:16px;
+
+	border:none;
+}
+/* facts about FF */
+.vin p{
+	line-height:30px;
+}
+.vull {
+	color:rgba(128, 128, 128, 0.514);
+}
+.pi{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+
+
+/* log in */
+.byke{
+  height:39vh;
+}
+.jeep .come, .pent{
+	padding-right:20px;
+}
+
+
+		/* register */
+		.jeep{
+			background-color:none;
+		}
+		.jeep .submit{
+		  padding:12px 35px;
+		  letter-spacing:2px;	
+		}
+	
+		/*footer*/
+		footer{
+			background-color:rgba(0, 128, 0, 0.726);
+			height:50vh;
+			width:100%;
+		}
+
+		.dev{
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			margin:100px 0;
+			padding:100px 0;
+		}
+		.dev .vite{
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			flex-direction:column;
+			margin:0 60px;
+		}
+		.vite a{
+			line-height:35px;
+			text-decoration:none;
+			color:white;
+			font-size:13px;
+		}
+		.vite h5{
+			font-size:15px;
+		}
+		
+	/*fact*/
+	.pond{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+	}
+	.pond img{
+		max-width:300px;
+		height:40vh;
+		object-fit:cover;
+		margin:40px;
+		border-radius:10px;
+	}
+
+
+@media(max-width:768px){
+	.container #semi{
+    height:10vh;
+    padding:5 40px;
+	width:100%;
+	
+	}
+	#semi img{
+      width:300px;
+	}
+	.nav #navbar{
+		display: flex;
+		justify-content:flex-start;
+		align-items:flex-start;
+		flex-direction: wrap;
+	}
+}
+
+
+
+
+
